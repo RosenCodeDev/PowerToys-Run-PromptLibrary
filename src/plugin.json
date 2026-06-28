@@ -1,0 +1,14 @@
+{
+  "ID": "610E1DFF57844F0A978512C381ABE794",
+  "ActionKeyword": "/p",
+  "IsGlobal": false,
+  "Name": "PromptLibrary",
+  "Author": "RosenCodeDev",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/RosenCodeDev/PowerToys-Run-PromptLibrary",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.PromptLibrary.dll",
+  "IcoPathDark": "Images\\prompt.dark.png",
+  "IcoPathLight": "Images\\prompt.light.png",
+  "DynamicLoading": false
+}

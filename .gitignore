@@ -1,0 +1,28 @@
+# .NET Build output
+bin/
+obj/
+src/bin/
+src/obj/
+
+# Local release directory (binaries are distributed via GitHub Releases, not git repository)
+release/
+NoiPrompts/
+
+# Visual Studio / Visual Studio Code user settings & caches
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Local user-specific configs / temporary files
+*.tmp
+*.log
+*.swp

@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Productivity",
+    "color": {
+      "metaColor": {
+        "originalInput": "#2563eb",
+        "r": 37,
+        "g": 99,
+        "b": 235,
+        "a": 1,
+        "roundA": 1,
+        "format": "hex",
+        "isValid": true
+      }
+    },
+    "description": "Everyday writing and workflow prompts.",
+    "id": "sample-productivity"
+  },
+  {
+    "name": "Development",
+    "color": {
+      "metaColor": {
+        "originalInput": "#16a34a",
+        "r": 22,
+        "g": 163,
+        "b": 74,
+        "a": 1,
+        "roundA": 1,
+        "format": "hex",
+        "isValid": true
+      }
+    },
+    "description": "Software development prompts.",
+    "id": "sample-development"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Awesome Prompts",
+    "color": {
+      "metaColor": {
+        "originalInput": "#db2777",
+        "r": 219,
+        "g": 39,
+        "b": 119,
+        "a": 1,
+        "roundA": 1,
+        "format": "hex",
+        "isValid": true
+      }
+    },
+    "description": "",
+    "id": "ad3a13018fe34246a488eaa5f782b909"
+  }
+]

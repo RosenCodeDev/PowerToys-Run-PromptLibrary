@@ -1,0 +1,29 @@
+[
+  {
+    "act": "Meeting Summary",
+    "prompt": "Summarize these meeting notes into decisions, action items, owners, and open questions.",
+    "id": "sample-meeting-summary",
+    "disabled": false,
+    "tags": [
+      "sample-productivity"
+    ]
+  },
+  {
+    "act": "Code Review Checklist",
+    "prompt": "Review this code for correctness, readability, edge cases, and missing tests. Keep the feedback concise and actionable.",
+    "id": "sample-code-review",
+    "disabled": false,
+    "tags": [
+      "sample-development"
+    ]
+  },
+  {
+    "act": "Rewrite Clearly",
+    "prompt": "Rewrite the following text so it is clear, direct, and easy to scan while preserving the original meaning.",
+    "id": "sample-rewrite-clearly",
+    "disabled": false,
+    "tags": [
+      "sample-productivity"
+    ]
+  }
+]
