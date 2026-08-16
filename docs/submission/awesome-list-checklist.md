@@ -16,26 +16,28 @@ Use this file to keep the evidence needed for the future pull request to
 
 ## VirusTotal
 
-Paste the final VirusTotal analysis URLs below after scanning both release zips.
-
-Format:
+Results verified 2026-08-16 (0/67 detections for both published assets):
 
 ```text
-x64: https://www.virustotal.com/gui/file/<file-hash-or-id>
-ARM64: https://www.virustotal.com/gui/file/<file-hash-or-id>
+x64: https://www.virustotal.com/gui/file/655d4ab294741991305229e0dc7ffaa31856d8f37f959a6a9ad05504b37f552f/detection
+ARM64: https://www.virustotal.com/gui/file/9b7cca252814737c31509f83e07b9fc81b6f11fbfbacd056d7325bd4987b11b6/detection
 ```
 
-Results:
+## Validation
 
-```text
-x64: pending
-ARM64: pending
-```
+- Logic tests: all 15 passed on 2026-08-16.
+- Release builds: x64 and ARM64 succeeded with 0 warnings and 0 errors on 2026-08-16.
+- Published x64 SHA-256: `655d4ab294741991305229e0dc7ffaa31856d8f37f959a6a9ad05504b37f552f`
+- Published ARM64 SHA-256: `9b7cca252814737c31509f83e07b9fc81b6f11fbfbacd056d7325bd4987b11b6`
+- `ptrun-lint` 0.6.0: the only findings are `PTRUN1501` messages requiring
+  `net9.0`; PowerToys 0.100.2 host assemblies target .NET 10, so the plugin
+  remains on `net10.0-windows10.0.22621.0` and the false positive will be
+  reported upstream.
 
 ## Upstream Entry
 
 ```md
-- [PromptLibrary](https://github.com/RosenCodeDev/PowerToys-Run-PromptLibrary) - Search, preview, and copy prompts from your prompt library.
+- [PromptLibrary](https://github.com/RosenCodeDev/PowerToys-Run-PromptLibrary) - Search, preview, and copy prompts from a local JSON prompt library.
 ```
 
 ## PR Title
